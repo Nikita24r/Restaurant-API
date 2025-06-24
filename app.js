@@ -26,7 +26,7 @@ app.use("/projects", require("./Routes/Project.Route"));
 app.use("/restaurants", require("./Routes/Restaurant.Route"));
 app.use("/receptions", require("./Routes/Reception.Route"));
 app.use("/feedbacks", require("./Routes/Feedback.Route"));
-app.use("/contacts", require("./Routes/Contact.Route"));
+app.use("/contact", require("./Routes/Contact.Route"));
 
 app.use("/uploads", express.static(path.join(__dirname, "uploads")));
 
