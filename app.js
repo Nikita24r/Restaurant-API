@@ -14,7 +14,6 @@ app.use(express.json({ limit: "50mb" }));
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.use("/auth", require("./Routes/Auth.Route"));
-app.use("/contact", require("./Routes/Contact.Route"));
 app.use("/course-query", require("./Routes/Course.Route"));
 app.use("/courses", require("./Routes/Courses.Route"));
 app.use("/carrier-query", require("./Routes/Carrier-Query.Route"));
