@@ -22,7 +22,7 @@ app.use("/user", require("./Routes/User.Route"));
 app.use("/file", require("./Routes/File.Route"));
 app.use("/blogs", require("./Routes/Blog.Route"));
 app.use("/projects", require("./Routes/Project.Route"));
-
+app.use("/menu", require("./Routes/Menu.Route"));
 app.use("/restaurants", require("./Routes/Restaurant.Route"));
 app.use("/receptions", require("./Routes/Reception.Route"));
 app.use("/feedbacks", require("./Routes/Feedback.Route"));
